@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Trains</string>
+    <string name="chercher">Search</string>
+    <string name="ville_dep">City departure:</string>
+    <string name="ville_arv">City arrival:</string>
+    <string name="depart">Depart</string>
+    <string name="arrive">Arrival</string>
+</resources>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Formulaire</string>
+    <string name="first_name">Prénom: </string>
+    <string name="enter_first_name">Entrez prénom</string>
+    <string name="last_name">Nom: </string>
+    <string name="enter_last_name">Entrez nom</string>
+    <string name="age">Âge: </string>
+    <string name="enter_age">Entrez Âge</string>
+    <string name="profession">Profession: </string>
+    <string name="enter_profession">Entrez profession</string>
+    <string name="phone_number">Portable: </string>
+    <string name="enter_phone_number">Entrez Portable</string>
+    <string name="email">Email: </string>
+    <string name="enter_email">Entez Email</string>
+    <string name="submit">Soumettre</string>
+    <string name="call">Appel</string>
+    <string name="phone_image">Image d\'un portable</string>
+    <string name="returning">Retourner</string>
+    <string name="messageSubmit">Vous etez sur que vous voulez envoyer la formuler?</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="yes">Oui</string>
+</resources>

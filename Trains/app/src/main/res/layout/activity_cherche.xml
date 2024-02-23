@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cherche">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="12dp"
+        tools:layout_editor_absoluteX="-504dp"
+        tools:layout_editor_absoluteY="-788dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            tools:layout_editor_absoluteX="-504dp"
+            tools:layout_editor_absoluteY="-788dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:padding="5dp"
+              >
+
+                <TextView
+                    android:id="@+id/textViewDepart"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="35dp"
+                    android:text="@string/ville_dep"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+                <EditText
+                    android:maxLines="1"
+                    android:lines="1"
+                    android:singleLine="true"
+                    android:id="@+id/editTextDepart"
+                    android:layout_margin="7dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/depart" />
+
+            </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                   >
+
+                    <TextView
+                    android:id="@+id/textViewArrive"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="35dp"
+                    android:text="@string/ville_arv"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <EditText
+                        android:maxLines="1"
+                        android:lines="1"
+                        android:singleLine="true"
+                        android:id="@+id/editTextArrive"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="7dp"
+                        android:hint="@string/arrive" />
+
+                </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/chercheButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="25dp"
+            android:text="@string/chercher" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

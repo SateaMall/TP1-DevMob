@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Form</string>
+    <string name="first_name">First Name: </string>
+    <string name="enter_first_name">Enter First Name</string>
+    <string name="last_name">Last Name: </string>
+    <string name="enter_last_name">Enter Sur Name</string>
+    <string name="age">Age: </string>
+    <string name="enter_age">Enter age</string>
+    <string name="profession">Profession: </string>
+    <string name="enter_profession">Enter profession</string>
+    <string name="phone_number">Phone Number: </string>
+    <string name="enter_phone_number">Enter PhoneNumber</string>
+    <string name="email">Email: </string>
+    <string name="enter_email">Enter Email</string>
+    <string name="submit">Submit</string>
+    <string name="call">Call</string>
+    <string name="phone_image">Photo of a phone</string>
+    <string name="returning">Return</string>
+    <string name="messageSubmit">Are you sure you want to submit this form?</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="yes">Yes</string>
+</resources>
