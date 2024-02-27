@@ -1,0 +1,89 @@
+% Une ligne commentaire débute par le caractère « % »
+
+\documentclass[a4paper]{article}
+
+% Options possibles : 10pt, 11pt, 12pt (taille de la fonte)
+%                     oneside, twoside (recto simple, recto-verso)
+%                     draft, final (stade de développement)
+
+\usepackage[utf8]{inputenc}   % LaTeX, comprends les accents !
+\usepackage[T1]{fontenc}      % Police contenant les caractères français
+\usepackage[francais]{babel}
+\usepackage{fullpage}
+\usepackage{multicol}
+
+\usepackage{blindtext}
+
+
+
+\usepackage{graphicx}  % pour inclure des images
+
+%\pagestyle{headings}        % Pour mettre des entêtes avec les titres
+                              % des sections en haut de page
+
+ \title{  TP1 : Les Bases d'Android\\         % Les paramètres du titre : titre, auteur, date
+  Programmation mobile}
+\author{Mohamad Satea Almallouhi - Tony Nguyen\\
+  \emph{M1 Génie Logiciel}\\
+  Faculté des Sciences\\
+Université de Montpellier.}
+\date{27 Février 2024}
+
+
+
+\begin{document}
+\maketitle                    % Faire un titre utilisant les données
+                              % passées à \title, \author et \date
+
+%\begin{center}               % pour centrer
+ % \includegraphics[scale=1]{}   % insertion d'une image
+%\end{center}
+
+% \begin{abstract}     % Résumé du travail
+
+%   \emph{Description très succinte du problème et des différentes étapes de réalisation}
+
+% \end{abstract}
+\newpage
+%\dominitoc  % initializer les minitoc
+\tableofcontents
+\newpage
+
+\begin{multicols}{2}
+  [
+    Faire une vidéo, rapport+read.md(instruction) screenchot résultats + code. +bonus bien fait,beau,tests,Kotlin,latex
+  \section{Hello world}
+  Nous allons voir comment afficher du texte à l'écran dans une activité sa vue associé.
+  ]
+  Tout d'abord, dans un fichier xml, nous déclarons une balise \textbf{<TextView>} avec un attribut \textbf{android:text} avec la valeur Hello World!
+  Afin de l'afficher à l'écran on va utilser ce \textbf{layout} dans une activité à l'aide de la fonction \textbf{setContentView()}.
+  Il est également nécessaire d'indiquer dans le manifeste l'activité à lancer en entrée. Pour cela, dans le manifest, nous ajoutons la balise \textbf{<intent-filter>}
+
+  
+\end{multicols}
+\section{Simple formulaire}
+\begin{multicols}{2}
+  \includegraphics{cuteGirl.jpeg}
+  \blindtext
+\end{multicols}
+\begin{multicols}{2}
+  [ 
+    Qu'est ce qu'un "Intent" ? 
+  ]
+  \subsection{Internationalisation}
+  Utilisation de ressources R
+  \blindtext
+  \subsection{Évenements}
+  Utilisation du concept de ressources. Dans res/values/strings.xml, nous déclarons les différents valeurs, mais avec le même attribut name.
+  \blindtext
+  \subsection{Intent explicite}
+  
+  \blindtext
+  \subsection{Intent implcite}
+  \blindtext
+  \section{Consultation les horaires de trains}
+  \blindtext
+  \section{Simple d’agenda}
+  \blindtext
+\end{multicols}
+\end{document}
