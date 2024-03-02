@@ -102,26 +102,32 @@ Université de Montpellier.}
   \includegraphics[width=.7\textwidth]{screenshotHelloWorldManifest.png}
   \label{fig:manifestHelloWorld}
 \end{figure*}
-\section{Simple formulaire}
-% \begin{multicols}{2}
-  
+\section{Simple formulaire}  
   \paragraph{}
   Nous allons voir comment faire une application android réalisant un formulaire où l'on demandera des informations de différentes nature à l'utilisateur.
-  
-  % \begin{figure*}[t]
-  %   \centering % à mettre avant includegraphics
-  %   \includegraphics[scale=0.5]{cuteGirl.jpeg}
-  %   \caption{Very cute anime girl}
-  % \end{figure*}
+  \includegraphics[height=\textwidth]{screenshotFormulaireIncomplet}
+  \paragraph{}
+  Afin d'implémenter chaque question de notre formulaire, nous utilisons dans notre layout les balises \textbf{<editText>} pour créer un champ de saisie et \textbf{<TextView>} pour l'étiquette associé.
+  \includegraphics[width=0.49\textwidth]{screenshotFormulaireLayout}
+
   \subsection{Internationalisation}
-  Utilisation de ressources R
-  
-  Utilisation du concept de ressources. Dans res/values/strings.xml, nous déclarons les différents valeurs, mais avec le même attribut name.
+  \paragraph{}
+    Le système Android étant largement répandu dans le monde, il est préferable de prévoir plusieurs traduction pour des utilisateurs à l'international. Nous allons voir comment.
+  \paragraph{}
+    Pour cela nous allons utiliser le concept de \textbf{ressources}.  
+
+    Remarquons que dans le fichier de layout, dans les balises, les attributs text et hint n'ont pas de concrète mais plutot \textbf{une référence (@type/name)}. \par
+    Dans res/values/strings.xml et res/values/fr/strings.xml, nous déclarons les différents valeurs, mais avec le même attribut name. 
+    
+    En changeant la langue du système globale, l'application sera choisir entre le fichier strings.xml par défaut ou fr/strings.xml si le sytème est en français.
+  \includegraphics[width=0.49\textwidth]{screenshotFormulaireInternational}
+  \includegraphics[width=0.49\textwidth]{international/ressourcesEn}
+  \includegraphics[width=0.49\textwidth]{international/ressourcesFr}
+  \includegraphics[width=0.49\textwidth]{international/settings}
   
   \subsection{Évenements}
-  
     \paragraph{}
-      Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test 
+      À présent, nous allons découvrit de quel façon réagir lors de l'action utilisateur "appuyer sur un bouton".
 
       Beep boop. Beep boop. Beep boop. Beep boop. Beep boop. Beep boop. 
     \paragraph{}
@@ -129,10 +135,16 @@ Université de Montpellier.}
   
   \subsection{Intent explicite}
     Qu'est ce qu'un "Intent" ? 
+
+    Un Intent est un objet représentant la communication entre composant sur Android. Il représente une demande d'opération à exécuter. Il permet notamment de démarer des d'autres composants/application.
+
+    Dans un Intent \textbf{explicite}, l'activité à démarer est \textbf{explicitement nommé}. 
     
+    Tout d'abord voyons ensemble les intents explicite.
     
     \subsection{Intent implcite}
-      beep boop
+
+      Nous allons maintenant voir les intents implcite qui eux \textbf{ne nécessite pas de nommer l'activité à démarer}.
 
   \section{Consultation les horaires de trains}
     \paragraph{}
