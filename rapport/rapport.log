@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.5.31)  2 MAR 2024 22:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.5.31)  3 MAR 2024 14:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -525,7 +525,7 @@ File: rapport/img//screenshotFormulaireIncomplet.png Graphic file (type png)
 <use rapport/img//screenshotFormulaireIncomplet.png>
 Package pdftex.def Info: rapport/img//screenshotFormulaireIncomplet.png  used o
 n input line 108.
-(pdftex.def)             Requested size: 209.04831pt x 452.9679pt.
+(pdftex.def)             Requested size: 221.95676pt x 480.89273pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 107--109
  [][] \T1/cmr/m/n/10 Nous al-lons voir com-ment faire une
@@ -546,6 +546,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 107--109
 \T1/cmr/m/n/10 tions de dif-fé-rentes na-ture à l'uti-li-sa-teur.
  []
 
+
+Overfull \hbox (0.47281pt too wide) in paragraph at lines 107--109
+[] 
+ []
+
 [3 <./rapport/img//captureHelloWorldAppPhone.png> <./rapport/img//screenshotHel
 loWorldLayout.png> <./rapport/img//screenshotCodeHelloWorld.png>]
 <rapport/img//screenshotFormulaireLayout.png, id=58, 540.0175pt x 390.45876pt>
@@ -560,10 +565,10 @@ Overfull \hbox (0.47281pt too wide) in paragraph at lines 110--112
  []
 
 
-Overfull \vbox (80.70328pt too high) has occurred while \output is active []
+Overfull \vbox (108.62811pt too high) has occurred while \output is active []
 
 
-Overfull \vbox (80.70328pt too high) has occurred while \output is active []
+Overfull \vbox (108.62811pt too high) has occurred while \output is active []
 
 
 [4 <./rapport/img//screenshotHelloWorldManifest.png> <./rapport/img//screenshot
@@ -618,35 +623,135 @@ Overfull \hbox (0.47281pt too wide) in paragraph at lines 122--127
 [] 
  []
 
-<rapport/img//jpg/Model1!Train_1.jpg, id=75, 1076.02pt x 381.425pt>
-File: rapport/img//jpg/Model1!Train_1.jpg Graphic file (type jpg)
-<use rapport/img//jpg/Model1!Train_1.jpg>
-Package pdftex.def Info: rapport/img//jpg/Model1!Train_1.jpg  used on input lin
-e 155.
-(pdftex.def)             Requested size: 452.9679pt x 160.56406pt.
+<rapport/img//event/code.png, id=75, 561.09625pt x 291.0875pt>
+File: rapport/img//event/code.png Graphic file (type png)
+<use rapport/img//event/code.png>
+Package pdftex.def Info: rapport/img//event/code.png  used on input line 135.
+(pdftex.def)             Requested size: 221.95676pt x 115.14485pt.
+<rapport/img//event/dialogue.png, id=76, 500.87125pt x 244.915pt>
+File: rapport/img//event/dialogue.png Graphic file (type png)
+<use rapport/img//event/dialogue.png>
+Package pdftex.def Info: rapport/img//event/dialogue.png  used on input line 13
+6.
+(pdftex.def)             Requested size: 221.95676pt x 108.53276pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--137
+[]\T1/cmr/m/n/10 Nous chois-si-sons comme com-por-te-ment
+ []
+
+
+Underfull \hbox (badness 7203) in paragraph at lines 134--137
+\T1/cmr/m/n/10 ma-tion ou d'an-nu-la-tion. Cela est pré-sen-ter
+ []
+
+
+Underfull \hbox (badness 7504) in paragraph at lines 134--137
+\T1/cmr/m/n/10 droid nous per-met d'en créer une comme
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--137
+\T1/cmr/m/n/10 ceci : "new Alert-Dia-log.Builder().show() ;"
+ []
+
+
+Overfull \hbox (0.47281pt too wide) in paragraph at lines 134--137
+[]
+ []
+
+
+Overfull \hbox (0.47281pt too wide) in paragraph at lines 134--137
+[] 
+ []
+
 [5 <./rapport/img//screenshotFormulaireInternational.png> <./rapport/img//inter
 national/ressourcesEn.png> <./rapport/img//international/ressourcesFr.png> <./r
 apport/img//international/settings.png>]
-<rapport/img//jpg/Model!Agenda_0.jpg, id=87, 445.665pt x 537.00626pt>
+<rapport/img//explicit/implementation.png, id=88, 702.625pt x 293.095pt>
+File: rapport/img//explicit/implementation.png Graphic file (type png)
+<use rapport/img//explicit/implementation.png>
+Package pdftex.def Info: rapport/img//explicit/implementation.png  used on inpu
+t line 149.
+(pdftex.def)             Requested size: 221.95676pt x 92.58926pt.
+
+Underfull \hbox (badness 5260) in paragraph at lines 148--151
+\T1/cmr/m/n/10 fec-ti-ve-ment lan-cer cette nou-velle ac-ti-vité, il
+ []
+
+
+Overfull \hbox (0.47281pt too wide) in paragraph at lines 148--151
+[] 
+ []
+
+<rapport/img//implicit/implementation.png, id=89, 482.80376pt x 109.40875pt>
+File: rapport/img//implicit/implementation.png Graphic file (type png)
+<use rapport/img//implicit/implementation.png>
+Package pdftex.def Info: rapport/img//implicit/implementation.png  used on inpu
+t line 156.
+(pdftex.def)             Requested size: 221.95676pt x 50.2969pt.
+<rapport/img//explicit/screenshotFormulaireAffichage.png, id=90, 1084.05pt x 23
+48.775pt>
+File: rapport/img//explicit/screenshotFormulaireAffichage.png Graphic file (typ
+e png)
+<use rapport/img//explicit/screenshotFormulaireAffichage.png>
+Package pdftex.def Info: rapport/img//explicit/screenshotFormulaireAffichage.pn
+g  used on input line 157.
+(pdftex.def)             Requested size: 221.95676pt x 480.89273pt.
+<rapport/img//implicit/appel.png, id=91, 333.245pt x 245.91875pt>
+File: rapport/img//implicit/appel.png Graphic file (type png)
+<use rapport/img//implicit/appel.png>
+Package pdftex.def Info: rapport/img//implicit/appel.png  used on input line 15
+8.
+(pdftex.def)             Requested size: 221.95676pt x 163.79657pt.
+
+Underfull \hbox (badness 5954) in paragraph at lines 155--159
+ [][] \T1/cmr/m/n/10 Comme on peut le voir sur l'image ci-
+ []
+
+
+Overfull \hbox (0.47281pt too wide) in paragraph at lines 155--159
+[]
+ []
+
+
+Overfull \hbox (0.47281pt too wide) in paragraph at lines 155--159
+[]
+ []
+
+
+Overfull \hbox (0.47281pt too wide) in paragraph at lines 155--159
+[] 
+ []
+
+[6 <./rapport/img//event/code.png> <./rapport/img//event/dialogue.png> <./rappo
+rt/img//explicit/implementation.png> <./rapport/img//implicit/implementation.pn
+g> <./rapport/img//explicit/screenshotFormulaireAffichage.png>]
+<rapport/img//jpg/Model1!Train_1.jpg, id=105, 1076.02pt x 381.425pt>
+File: rapport/img//jpg/Model1!Train_1.jpg Graphic file (type jpg)
+<use rapport/img//jpg/Model1!Train_1.jpg>
+Package pdftex.def Info: rapport/img//jpg/Model1!Train_1.jpg  used on input lin
+e 170.
+(pdftex.def)             Requested size: 452.9679pt x 160.56406pt.
+<rapport/img//jpg/Model!Agenda_0.jpg, id=106, 445.665pt x 537.00626pt>
 File: rapport/img//jpg/Model!Agenda_0.jpg Graphic file (type jpg)
 <use rapport/img//jpg/Model!Agenda_0.jpg>
 Package pdftex.def Info: rapport/img//jpg/Model!Agenda_0.jpg  used on input lin
-e 164.
+e 179.
 (pdftex.def)             Requested size: 452.9679pt x 545.81354pt.
- [6 <./rapport/img//jpg/Model1!Train_1.jpg>] [7 <./rapport/img//jpg/Model!Agend
-a_0.jpg>] (rapport//rapport.aux)
+ [7 <./rapport/img//implicit/appel.png>] [8 <./rapport/img//jpg/Model1!Train_1.
+jpg>] [9 <./rapport/img//jpg/Model!Agenda_0.jpg>] (rapport//rapport.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 10937 strings out of 479551
- 177735 string characters out of 5876172
- 481729 words of memory out of 5000000
- 28753 multiletter control sequences out of 15000+600000
+ 11025 strings out of 479551
+ 180473 string characters out of 5876172
+ 480729 words of memory out of 5000000
+ 28821 multiletter control sequences out of 15000+600000
  478742 words of font info for 46 fonts, out of 8000000 for 9000
  395 hyphenation exceptions out of 8191
- 60i,7n,63p,513b,529s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,7n,63p,566b,531s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/tony/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600p
 k> </home/tony/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1000.600p
 k> </home/tony/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600p
@@ -656,10 +761,10 @@ k> </home/tony/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600p
 k> </home/tony/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600p
 k> </home/tony/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.600p
 k>
-Output written on rapport//rapport.pdf (7 pages, 593492 bytes).
+Output written on rapport//rapport.pdf (9 pages, 794124 bytes).
 PDF statistics:
- 400 PDF objects out of 1000 (max. 8388607)
- 127 compressed objects within 2 object streams
- 32 named destinations out of 1000 (max. 500000)
- 130 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 441 PDF objects out of 1000 (max. 8388607)
+ 140 compressed objects within 2 object streams
+ 38 named destinations out of 1000 (max. 500000)
+ 160 words of extra memory for PDF output out of 10000 (max. 10000000)
 

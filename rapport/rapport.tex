@@ -105,7 +105,7 @@ Université de Montpellier.}
 \section{Simple formulaire}  
   \paragraph{}
   Nous allons voir comment faire une application android réalisant un formulaire où l'on demandera des informations de différentes nature à l'utilisateur.
-  \includegraphics[height=\textwidth]{screenshotFormulaireIncomplet}
+  \includegraphics[width=0.49\textwidth]{screenshotFormulaireIncomplet}
   \paragraph{}
   Afin d'implémenter chaque question de notre formulaire, nous utilisons dans notre layout les balises \textbf{<editText>} pour créer un champ de saisie et \textbf{<TextView>} pour l'étiquette associé.
   \includegraphics[width=0.49\textwidth]{screenshotFormulaireLayout}
@@ -128,24 +128,34 @@ Université de Montpellier.}
   \subsection{Évenements}
     \paragraph{}
       À présent, nous allons découvrit de quel façon réagir lors de l'action utilisateur "appuyer sur un bouton".
-
-      Beep boop. Beep boop. Beep boop. Beep boop. Beep boop. Beep boop. 
     \paragraph{}
-      Test Test Test Test Test Test Test Test Test Test Test Test Test Test 
+      Avant tout, il est nécessaire de récuper l'objet représentant le boutton. Une fois récupérer, nous allons pouvoir lui ajouter \textbf{un listener} afin qu'il réagisse à un appuie avec la fonction \textbf{setOnClickListener}. Nous lui donnons en argument une sous classe de OnClickListener en créant une classe anonyme héritant de OnClickListener dans laquelle nous \textbf{redéfinissons onClick()}. C'est dans cette fonction que nous pouvons décider quelles actions prendre lors de cet évènements.
+
+      Nous choissisons comme comportement du boutton, une simple demande de confirmation ou d'annulation. Cela est présenter sous la forme d'une fenêtre de dialogue. Android nous permet d'en créer une comme ceci : "new AlertDialog.Builder().show();"
+      \includegraphics[width=0.49\textwidth]{event/code}
+      \includegraphics[width=0.49\textwidth]{event/dialogue}
   
   \subsection{Intent explicite}
-    Qu'est ce qu'un "Intent" ? 
+    \paragraph{}
+      Qu'est ce qu'un "Intent" ? 
 
-    Un Intent est un objet représentant la communication entre composant sur Android. Il représente une demande d'opération à exécuter. Il permet notamment de démarer des d'autres composants/application.
+      Un Intent est un objet représentant la communication entre composant sur Android. Il représente une demande d'opération à exécuter. Il permet notamment de démarer des d'autres composants/application.
 
-    Dans un Intent \textbf{explicite}, l'activité à démarer est \textbf{explicitement nommé}. 
-    
-    Tout d'abord voyons ensemble les intents explicite.
-    
-    \subsection{Intent implcite}
+      Dans un Intent \textbf{explicite}, l'activité à démarer est \textbf{explicitement nommé}. 
 
-      Nous allons maintenant voir les intents implcite qui eux \textbf{ne nécessite pas de nommer l'activité à démarer}.
-
+      Tout d'abord voyons ensemble les intents explicite.
+    \paragraph{}
+      En effet, comme nous pouvons le remarqué, dans le constructeur le l'Intent, nous mettons en second paramètre la classe de l'activité à démarer. La méthode \textbf{putExtra} nous permet va nous permettre de transmettre des informations à l'activité à démarrer. Pour effectivement lancer cette nouvelle activité, il nous suffit de faire \textbf{startActivity(uneIntent)}.
+      \includegraphics[width=0.49\textwidth]{explicit/implementation}
+      % \includegraphics[width=0.49\textwidth]{explicit/screenshotFormulaireAffichage}
+    \subsection{Intent implicite}
+      \paragraph{}
+        Nous allons maintenant voir les intents implcite qui eux \textbf{ne nécessite pas de nommer l'activité à démarer}.
+      \paragraph{}
+        Comme on peut le voir sur l'image ci-dessous, nous n'indiquons pas le nom de l'activité à démarrer, seulement l'action à réaliser.
+      \includegraphics[width=0.49\textwidth]{implicit/implementation}
+      \includegraphics[width=0.49\textwidth]{explicit/screenshotFormulaireAffichage}
+      \includegraphics[width=0.49\textwidth]{implicit/appel}
   \section{Consultation les horaires de trains}
     \paragraph{}
       Nous allons faire une application pour consulter des horaires de trains.
