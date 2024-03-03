@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.5.31)  3 MAR 2024 15:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.5.31)  3 MAR 2024 15:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -752,36 +752,71 @@ Underfull \hbox (badness 10000) in paragraph at lines 171--179
 
  []
 
-<rapport/img//jpg/Model!Agenda_0.jpg, id=109, 445.665pt x 537.00626pt>
+<rapport/img//agenda/before.png, id=109, 284.06125pt x 189.70876pt>
+File: rapport/img//agenda/before.png Graphic file (type png)
+<use rapport/img//agenda/before.png>
+Package pdftex.def Info: rapport/img//agenda/before.png  used on input line 186
+.
+(pdftex.def)             Requested size: 221.95676pt x 148.23854pt.
+
+Overfull \hbox (0.47281pt too wide) in paragraph at lines 186--187
+[] 
+ []
+
+<rapport/img//agenda/add.png, id=110, 284.06125pt x 238.8925pt>
+File: rapport/img//agenda/add.png Graphic file (type png)
+<use rapport/img//agenda/add.png>
+Package pdftex.def Info: rapport/img//agenda/add.png  used on input line 192.
+(pdftex.def)             Requested size: 221.95676pt x 186.67075pt.
+
+Overfull \hbox (0.47281pt too wide) in paragraph at lines 192--193
+[] 
+ []
+
+<rapport/img//agenda/after.png, id=111, 284.06125pt x 238.8925pt>
+File: rapport/img//agenda/after.png Graphic file (type png)
+<use rapport/img//agenda/after.png>
+Package pdftex.def Info: rapport/img//agenda/after.png  used on input line 196.
+
+(pdftex.def)             Requested size: 221.95676pt x 186.67075pt.
+
+Overfull \hbox (0.47281pt too wide) in paragraph at lines 196--197
+[] 
+ []
+
+[7 <./rapport/img//implicit/appel.png> <./rapport/img//train/avant.png> <./rapp
+ort/img//train/après.png> <./rapport/img//agenda/before.png> <./rapport/img//a
+genda/add.png>]
+<rapport/img//jpg/Model!Agenda_0.jpg, id=129, 445.665pt x 537.00626pt>
 File: rapport/img//jpg/Model!Agenda_0.jpg Graphic file (type jpg)
 <use rapport/img//jpg/Model!Agenda_0.jpg>
 Package pdftex.def Info: rapport/img//jpg/Model!Agenda_0.jpg  used on input lin
-e 185.
+e 203.
 (pdftex.def)             Requested size: 375.9201pt x 452.9679pt.
-[7 <./rapport/img//implicit/appel.png> <./rapport/img//train/avant.png> <./rapp
-ort/img//train/après.png>] [8 <./rapport/img//jpg/Model1!Train_1.jpg>]
-[9 <./rapport/img//jpg/Model!Agenda_0.jpg>] (rapport//rapport.aux) ) 
+ [8 <./rapport/img//jpg/Model1!Train_1.jpg> <./rapport/img//agenda/after.png>] 
+[9 <./rapport/img//jpg/Model!Agenda_0.jpg>]
+(rapport//rapport.aux) ) 
 Here is how much of TeX's memory you used:
- 11055 strings out of 479551
- 181194 string characters out of 5876172
+ 11096 strings out of 479551
+ 182216 string characters out of 5876172
  480815 words of memory out of 5000000
- 28845 multiletter control sequences out of 15000+600000
+ 28878 multiletter control sequences out of 15000+600000
  478742 words of font info for 46 fonts, out of 8000000 for 9000
  395 hyphenation exceptions out of 8191
  60i,7n,63p,566b,531s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/ton
-y/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/ton
-y/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1000.600pk> </home/ton
-y/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </home/ton
-y/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/ton
-y/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/ton
-y/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> </home/ton
-y/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/ton
-y/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.600pk>
-Output written on rapport//rapport.pdf (9 pages, 862549 bytes).
+ </home/tony/.texlive2021/texmf-var/fonts/pk/ljfour/jkn
+appen/ec/ecbx1200.600pk> </home/tony/.texlive2021/texmf-var/fonts/pk/ljfour/jkn
+appen/ec/eccc1000.600pk> </home/tony/.texlive2021/texmf-var/fonts/pk/ljfour/jkn
+appen/ec/ecbx1000.600pk> </home/tony/.texlive2021/texmf-var/fonts/pk/ljfour/jkn
+appen/ec/ecbx1440.600pk> </home/tony/.texlive2021/texmf-var/fonts/pk/ljfour/jkn
+appen/ec/ecrm1000.600pk> </home/tony/.texlive2021/texmf-var/fonts/pk/ljfour/jkn
+appen/ec/ecti1200.600pk> </home/tony/.texlive2021/texmf-var/fonts/pk/ljfour/jkn
+appen/ec/ecrm1200.600pk> </home/tony/.texlive2021/texmf-var/fonts/pk/ljfour/jkn
+appen/ec/ecrm1728.600pk>
+Output written on rapport//rapport.pdf (9 pages, 933976 bytes).
 PDF statistics:
- 449 PDF objects out of 1000 (max. 8388607)
- 143 compressed objects within 2 object streams
- 39 named destinations out of 1000 (max. 500000)
- 170 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 460 PDF objects out of 1000 (max. 8388607)
+ 147 compressed objects within 2 object streams
+ 41 named destinations out of 1000 (max. 500000)
+ 185 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -23,3 +23,5 @@
 \contentsline {paragraph}{}{7}{section*.17}%
 \contentsline {section}{\numberline {4}Simple d’agenda}{7}{section.4}%
 \contentsline {paragraph}{}{7}{section*.18}%
+\contentsline {paragraph}{}{7}{section*.19}%
+\contentsline {paragraph}{}{8}{section*.20}%
