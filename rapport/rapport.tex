@@ -156,17 +156,25 @@ Université de Montpellier.}
       \includegraphics[width=0.49\textwidth]{implicit/implementation}
       \includegraphics[width=0.49\textwidth]{explicit/screenshotFormulaireAffichage}
       \includegraphics[width=0.49\textwidth]{implicit/appel}
-  \section{Consultation les horaires de trains}
+  \section{Consultation des horaires de trains}
     \paragraph{}
       Nous allons faire une application pour consulter des horaires de trains.
+    \paragraph{}
+      La classe Cherche est l'activité d'entrée, la page d'acceuil. Avec des objets \textbf{EditText}, on récupère les villes de départ et d'arrivé saisies.
 
-      \includegraphics[width=0.49\textwidth]{train/avant}
+      Ensuite avec un \textbf{OnClickListener} et un \textbf{Intent}, on transmet les données saisies lors d'une pression sur le boutton "Search" à l'activité \textbf{Consultation}.
+
+      La classe Trajet sert seulement à représenter un Trajet.
+
+      Nous pouvons voir le résultat sur les images suivantes avec le diagramme de classe de l'application sur la figure \ref{fig:trainClass} (page \pageref{fig:trainClass}).
+      
+      \noindent\includegraphics[width=0.49\textwidth]{train/avant}
       \includegraphics[width=0.49\textwidth]{train/après}
     \begin{figure*}
       \centering
       \caption{Diagramme de classe de l'application Trains}
       \includegraphics[width=\textwidth]{jpg/Model1!Train_1}
-      \label{fig:manifestHelloWorld}
+      \label{fig:trainClass}
     \end{figure*}
   \section{Simple d’agenda}
     \paragraph{}
@@ -174,8 +182,8 @@ Université de Montpellier.}
     \begin{figure*}
       \centering
       \caption{Diagramme de classe de l'application Agenda}
-      \includegraphics[width=\textwidth]{jpg/Model!Agenda_0}
-      \label{fig:manifestHelloWorld}
+      \includegraphics[height=\textwidth]{jpg/Model!Agenda_0}
+      \label{fig:agendaClass}
     \end{figure*}
   \end{multicols}
 \end{document}
