@@ -25,3 +25,5 @@
 \contentsline {paragraph}{}{7}{section*.18}%
 \contentsline {paragraph}{}{7}{section*.19}%
 \contentsline {paragraph}{}{8}{section*.20}%
+\contentsline {paragraph}{}{8}{section*.21}%
+\contentsline {paragraph}{}{8}{section*.23}%
